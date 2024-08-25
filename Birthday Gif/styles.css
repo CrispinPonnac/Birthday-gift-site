@@ -1,0 +1,97 @@
+body{
+    color: #ffffff;
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background:linear-gradient(#a2d2ff,#EFB0C9) ;
+}
+h1,h2,h3,h4{
+    text-shadow: 1px 1px 1px black;    
+}
+#bday-name {
+    background-color: #EFB0C9;
+    padding: 6px 12px 6px 12px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px 0 10px 0;
+}
+
+#bday-date{
+    background-color: #EFB0C9;
+    padding: 6px 12px 6px 12px;
+    border: none;
+    border-radius: 5px;
+    margin: 0;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#crispin-img{
+    width:150px;
+    height: auto;
+    overflow: hidden;/* ensures image doesnt overflow the container*/
+    border: solid 7px #EFB0C9;
+    border-radius: 50%;
+}
+.gift-section{
+    margin: 40px;   
+}
+.gift-title{
+    margin: 0 0 10px;
+}
+.gift-hint{
+    margin: 0 0 25px;/*top left bottom right*/
+}
+
+.gift-img{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-image: url("https://images.unsplash.com/photo-1513201099705-a9746e1e201f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGdpZnQlMjBjb3ZlcnxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+}
+
+#gift-img-happy:hover{
+    background-image: url("images/happy.gif");
+    background-size: cover;
+}
+
+#gift-img-hot:hover{
+    background-image: url("images/hot.gif");
+    background-size: cover;
+}
+
+#gift-img-genius:hover{
+    background-image: url("images/genius.gif");
+    background-size: cover;
+}
+
+#gift-img-badass:hover{
+    background-image: url("https://media.tenor.com/ot7h7MmLYSwAAAAM/aaraattu-mohanlal.gif");
+    background-size: cover;
+    
+}
+
+#gift-img-cheers:hover{
+    background-image: url("images/cheers.gif");
+    background-size: cover;
+    
+}
+#gift-img-cheers{
+    height: 200px;
+}
+
+#footer{
+    font-style: italic;
+    margin: 40px auto;
+    width: 400px;
+}
+a{
+    color: #ffffff;
+}
